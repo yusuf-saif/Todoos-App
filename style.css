@@ -1,0 +1,15 @@
+#digital-clock {
+      width: 10%;
+      font-size: 20px;
+      /* text-align: center; */
+      /* font-size: 19vw; */
+      color: white;
+    }
+    .red-dot {
+      color: red;
+    }
+
+
+    .text-sm-start{
+      color: rgb(145, 176, 197);
+    }

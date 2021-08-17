@@ -1,15 +1,15 @@
-// //Clock 
-// function showclock() {
-//       let today = new Date();
-//       let hours = today.getHours();
-//       let mins = today.getMinutes();
-//       let seconds = today.getSeconds();
-//       const addZero = num => {
-//         if(num < 10) { return '0' + num };
-//         return num;
-//       }
-//       $('#hour').text(addZero(hours));
-//       $('#min').text(addZero(mins));
-//       $('#second').text(addZero(seconds));
-//     }
-//     setInterval(showclock, 1000);
+let form = document.getElementById('addForm');
+let itemList = document.getElementById('items');
+
+//form.addEventListener('submit', taskList);
+
+let newTaskList = document.getElementById('item');
+
+
+let taskList = [
+      'Task One',
+      'Task Two',
+      'Task Three',
+      ''
+];
+console.log(taskList);
